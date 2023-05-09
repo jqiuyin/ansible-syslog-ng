@@ -9,3 +9,4 @@ pytest-testinfra
 tox
 tox-gh-actions
 yamllint
+ansible-compat==3.0.1

@@ -11,7 +11,7 @@ source {{ id }} {
       {% set _ = dic.pop('comment') %}
     {% endif %}
     {% for k, v in dic.items() if k != 'comment' %}
-  {{ k | replace('_', '-') }}({{ '"%s"' | format(v) if v else '' }});
+  {{ k | replace('_', '-') }}({{ '%s' | format(v) if v else '' }});
     {% endfor %}
   {% endfor %}
 };

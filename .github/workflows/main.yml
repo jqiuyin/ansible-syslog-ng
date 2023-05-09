@@ -51,7 +51,7 @@ jobs:
       - name: test with tox
         run: |
           tox -e ansible_$(printf "${{ matrix.ansible-version }}") \
-            -- molecule test --scenario-name default
+            -- molecule test --scenario-name default --debug vefiry
         env:
           PY_COLORS: '1'
           ANSIBLE_FORCE_COLOR: '1'
@@ -90,7 +90,7 @@ jobs:
       - name: test with tox
         run: |
           tox -e ansible_$(printf "${{ matrix.ansible-version }}") \
-            -- molecule test --scenario-name default
+            -- molecule test --scenario-name default --debug vefiry
         env:
           PY_COLORS: '1'
           ANSIBLE_FORCE_COLOR: '1'

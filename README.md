@@ -8,15 +8,15 @@ This again allows a simple, central logging service to be run on the user's own 
 
 **This role disables journald and takes over its function!**
 
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/bodsch/ansible-syslog-ng/main.yml?branch=main)][ci]
-[![GitHub issues](https://img.shields.io/github/issues/bodsch/ansible-syslog-ng)][issues]
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/bodsch/ansible-syslog-ng)][releases]
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/jqiuyin/ansible-syslog-ng/main.yml?branch=main)][ci]
+[![GitHub issues](https://img.shields.io/github/issues/jqiuyin/ansible-syslog-ng)][issues]
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/jqiuyin/ansible-syslog-ng)][releases]
 [![Ansible Quality Score](https://img.shields.io/ansible/quality/50067?label=role%20quality)][quality]
 
-[ci]: https://github.com/bodsch/ansible-syslog-ng/actions
-[issues]: https://github.com/bodsch/ansible-syslog-ng/issues?q=is%3Aopen+is%3Aissue
-[releases]: https://github.com/bodsch/ansible-syslog-ng/releases
-[quality]: https://galaxy.ansible.com/bodsch/syslog_ng
+[ci]: https://github.com/jqiuyin/ansible-syslog-ng/actions
+[issues]: https://github.com/jqiuyin/ansible-syslog-ng/issues?q=is%3Aopen+is%3Aissue
+[releases]: https://github.com/jqiuyin/ansible-syslog-ng/releases
+[quality]: https://galaxy.ansible.com/jqiuyin/syslog_ng
 
 
 ## tested operating systems
@@ -200,7 +200,7 @@ Please read [Contribution](CONTRIBUTING.md)
 
 The `master` Branch is my *Working Horse* includes the "latest, hot shit" and can be complete broken!
 
-If you want to use something stable, please use a [Tagged Version](https://github.com/bodsch/ansible-syslog-ng/tags)!
+If you want to use something stable, please use a [Tagged Version](https://github.com/jqiuyin/ansible-syslog-ng/tags)!
 
 ---
 

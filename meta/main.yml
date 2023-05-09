@@ -1,9 +1,9 @@
 ---
 galaxy_info:
   role_name: syslog_ng
-  namespace: bodsch
+  namespace: jqiuyin
 
-  author: Bodo Schulz
+  author: Ji Qiuyin
   description: Manage syslog-ng configuration
   license: Apache
 
